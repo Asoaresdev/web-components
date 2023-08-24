@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
     <script src="src/components/TituloDinamico.js" defer></script>
     <title>Portal de Notícias Galáctica</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="card">
+        <!-- <div class="card">
             <div class="card_left">
                 <span>Andréa</span>
                 <a href="#">Darth Veder contrata devs</a>
@@ -20,9 +22,19 @@
                 <img src="./assets/darth-vader-main_4560aff7.jpeg" alt="imagem do Darth Veder">
             </div>
 
-        </div>
+        </div> -->
+        <card-news 
+            author="Andréa Soares" 
+            title="Darth Veder contrata"
+            content="Darth Veder procura pessoa desenvolvedora das galáxias"
+            photo="./assets/darth-vader-main_4560aff7.jpeg"
+        ></card-news>
+        <card-news  
+            title="Teste"
+            content="testando" 
+        ></card-news>
     </div>
-    <card-news></card-news>
-    <titulo-dinamico titulo="Notícia urgente"></titulo-dinamico>
+    
 </body>
-</html> 
+
+</html>
